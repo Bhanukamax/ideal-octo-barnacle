@@ -1,7 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  --color-primary: rgb(30, 190, 200);
+  --color-primary-light: rgb(210, 245, 245);
+  --color-gray: rgb(210, 210, 210);
+  --color-danger: #ff1b1b;
 }

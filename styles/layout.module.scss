@@ -1,0 +1,16 @@
+.formControlWrapper {
+  display: flex;
+  flex-direction: column;
+  & > input, div {
+    padding: 16px 0;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  & > * {
+    margin: 0 5px;
+  }
+}
